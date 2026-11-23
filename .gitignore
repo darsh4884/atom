@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+
+# Node modules
+node_modules
+
+# Build output
+dist
+
+# Editor directories and files
+.vscode/*
+
+# Environment files
+.env
