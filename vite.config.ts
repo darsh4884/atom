@@ -16,7 +16,7 @@ export default defineConfig({
     sourcemap: true,
 
     lib: {
-      entry: resolve(__dirname, "index.ts"),
+      entry: import.meta.dirname + "./index.ts",
       formats: ["es"],
       fileName: "index",
     },
